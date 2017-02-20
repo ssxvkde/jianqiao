@@ -1,0 +1,369 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+strong,b{
+	font-weight: normal;
+}
+img{
+	display: block;
+	border: 0;
+}
+body{
+	font-size: 13px;
+	font-family: "微软雅黑";
+}
+
+
+
+
+/******************** 1、头部 ********************/
+#header{
+	width: 100%;
+	height: 35px;
+	background: #e4e4e4;
+}
+.header-cont{
+	width: 1004px;
+	margin: 0 auto;
+}
+.header-l{
+	width: 350px;
+	height: 35px;
+	/*background: red;*/
+	float: left;
+}
+.header-l a{
+	padding: 0 8px;
+	/*height: 35px;*/
+	line-height: 35px;
+	color: #67698f;
+	background: url(../images/header-1.png) no-repeat right center;
+}
+.header-l .last{
+	background: none;
+}
+
+.header-r{
+	width: 374px;
+	height: 35px;
+	/*background: purple;*/
+	float: right;
+}
+.header-r a{
+	color: #67698f;
+	line-height: 35px;
+	margin-right: 15px;
+	float: left;
+}
+.header-r form{
+	float: left;
+	padding-top: 8px;
+}
+.header-r .text1{
+	width: 140px;
+	height: 20px;
+	border: 0;
+	color: gray;
+	line-height: 20px;
+}
+.header-r .bt1{
+	width: 27px;
+	height: 21px;
+	background: url(../images/header-2.png);
+	border: 0;
+}
+
+/******************** 2、LOGO ********************/
+#logo{
+	width: 1004px;
+	height: 80px;
+	background: url(../images/logo-2.png) no-repeat right top;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+
+/******************** 3、导航 ********************/
+#nav{
+	width: 100%;
+	height: 44px;
+	background: #d92b34;
+}
+.nav-cont{
+	width: 1004px;
+	height: 44px;
+	background: #c8141f;
+	margin: 0 auto;
+}
+.nav-cont a{
+	margin: 0 18px;
+	line-height: 44px;
+	color: white;
+	font-size: 16px;
+}
+
+
+/******************** 4、横幅 ********************/
+#banner{
+	width: 1004px;
+	height: 330px;
+	margin: 0 auto;
+}
+.banner-l{
+	width: 670px;
+	height: 330px;
+	background: url(../images/banner-1.png);
+	float: left;
+}
+.banner-r{
+	width: 334px;
+	height: 328px;
+	/*background: purple;*/
+	float: left;
+	overflow: hidden;
+	border-bottom: 2px solid #c8141f;
+}
+.banner-r ul{
+	padding: 10px 40px 0 40px;
+}
+.banner-r ul li{
+	height: 44px;
+	border-bottom: 1px dashed gray;
+	padding-top: 10px;
+}
+/*.banner-r ul li a{
+	display: block;
+	width: 240px;
+}*/
+.banner-r ul li strong{
+	color: black;
+	font-weight: bold;
+}
+.banner-r ul li b{
+	color: #434542;
+}
+.banner-r ul li span{
+	color: #777777;
+}
+.banner-r .last a{
+	float: right;
+	color: gray;
+}
+
+
+/******************** 5、主体 ********************/
+#main{
+	width: 1004px;
+	height: 590px;
+	margin: 0 auto;
+}
+
+.main-1{
+	width: 733px;
+	height: 590px;
+	float: left;
+}
+.main-1 h3{
+	font-weight: normal;
+	height: 30px;
+	padding-top: 50px;
+	border-bottom: 2px solid gray;
+	font-size: 18px;
+	text-align: left;
+}
+.main-1 .section1,.main-1 .section3{
+	width: 271px;
+	height: 251px;
+	float: left;
+}
+.main-1 .section2,.main-1 .section4{
+	width: 425px;
+	height: 251px;
+	float: left;
+	padding-left: 37px;
+}
+.main-1 ul{
+	margin-top: 20px;
+}
+.main-1 ul li{
+	line-height: 24px;
+}
+.main-1 ul a{
+	float: left;
+	color: #333333;
+}
+.main-1 ul span{
+	float: right;
+	color: #666666;
+}
+
+.main-1 .section1{
+	/*background: blueviolet;*/
+	text-align: center;
+}
+.main-1 .section1 img{
+	margin-top: 20px;
+}
+.main-1 .section1 a{
+	color: #646663;
+}
+
+.main-1 .section2{
+	/*background: cadetblue;*/
+}
+.main-1 .section2 dl{
+	padding-top: 18px;
+	height: 62px;
+}
+.main-1 .section2 dt{
+	width: 62px;
+	height: 62px;
+	background: red;
+	color: white;
+	text-align: center;
+	float: left;
+}
+.main-1 .section2 dt p{
+	line-height: 35px;
+	font-size: 22px;
+}
+.main-1 .section2 dt span{
+	line-height: 27px;
+}
+.main-1 .section2 dd{
+	width: 340px;
+	height: 62px;
+	float: right;
+}
+.main-1 .section2 dd .info1{
+	font-size: 14px;
+	color: black;
+	line-height: 22px;
+	display: block;
+}
+.main-1 .section2 dd .info2{
+	color: gray;
+	line-height: 20px;
+}
+
+.main-1 .section3{
+	/*background: darkblue;*/
+}
+.main-1 .section4{
+	/*background:darkslateblue;*/
+}
+
+
+.main-2{
+	width: 244px;
+	height: 590px;
+	/*background: blue;*/
+	float: right;
+}
+.main-2 img{
+	margin: 40px 0;
+}
+.main-2 .cont span{
+	width: 72px;
+	height: 35px;
+	float: left;
+	line-height: 35px;
+	text-align: center;
+}
+.main-2 .cont .active{
+	color: red;
+	border-bottom: 2px solid red;
+}
+
+.main-2 form{
+	width: 244px;
+	height: 120px;
+	border-top: 1px solid gray;
+	padding-top: 30px;
+	float: left;
+}
+.main-2 .text1,.main-2 .text2{
+	width: 210px;
+	height: 26px;
+	margin-bottom: 4px;
+} 
+.main-2 .bt1{
+	width: 80px;
+	height: 25px;
+	background: #f0f0f0;
+	/*border: 0;*/
+	border: 1px solid gray;
+	padding-top: 7px;
+}
+.main-2 a{
+	margin-left: 48px;
+}
+
+
+/******************** 6、底部1 ********************/
+#footer1{
+	width: 100%;
+	height: 66px;
+	border-top: 4px solid #ff9c00;
+}
+
+#footer1 .section1{
+	height: 24px;
+	background: #ebebeb;
+	text-align: center;
+	
+	font-size: 0;
+}
+
+#footer1 .section1 img{
+	display: inline-block;
+	
+	/*margin: 0 auto;*/
+}
+
+#footer1 .section2{
+	height: 42px;
+	background: #d4d4d4;
+	text-align: center;
+}
+#footer1 .section2 a{
+	color: black;
+	margin: 0 60px;
+	line-height: 42px;
+}
+
+
+/******************** 7、底部2 ********************/
+#footer2{
+	width: 100%;
+	height: 130px;
+}
+#footer2 .section1{
+	height: 48px;
+	background: #302728;
+	border-bottom: 2px solid black;
+	text-align: center;
+	color: white;
+}
+#footer2 .section1 a{
+	margin: 0 8px;
+	line-height: 48px;
+	color: white;
+}
+#footer2 .section2{
+	height: 60px;
+	background: #302728;
+	padding-top: 20px;
+	text-align: center;
+}
+#footer2 .section2 p{
+	color: #949297;
+	line-height: 24px;
+}
